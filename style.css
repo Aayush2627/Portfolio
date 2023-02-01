@@ -93,3 +93,7 @@ body{
 .padding ul{
     padding-inline-start: 0px;
 }
+.footer-heading{
+    font-size: larger;
+    font-weight: bolder;
+}
