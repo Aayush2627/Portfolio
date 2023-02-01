@@ -39,8 +39,8 @@ body{
 }
 .inline{
     display: inline;
-    padding: 0rem 1rem;
-    align-items: flex-end;
+    padding: 0rem 0rem;
+    align-items: right;
     
 }
 .navigation{
@@ -51,7 +51,7 @@ body{
     border-bottom-right-radius: 1rem;
 }
 .navigation .nav-list{
-    text-align: flex-end;
+    text-align:center;
     
 }
 .navigation .link{
