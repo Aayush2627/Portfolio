@@ -14,7 +14,7 @@ body{
     max-width:600px;
     margin:auto; }
 .link{
-    padding:0rem 0rem;
+    padding:.5rem 1rem;
     text-decoration: none;
 
 }
@@ -40,6 +40,8 @@ body{
 .inline{
     display: inline;
     padding: 0rem 1rem;
+    align-items: flex-end;
+    
 }
 .navigation{
     background-color: var(--color);
@@ -49,7 +51,7 @@ body{
     border-bottom-right-radius: 1rem;
 }
 .navigation .nav-list{
-    text-align: right;
+    text-align: flex-end;
     
 }
 .navigation .link{
