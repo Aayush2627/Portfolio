@@ -99,3 +99,32 @@ body{
     font-size: larger;
     font-weight: bolder;
 }
+@media screen and (max-width:600px){
+
+    ul{
+    text-align:center;
+    padding:5px;
+    margin:0 auto;
+
+} 
+  .footer .link{
+    font-size:small;
+    padding:5px;
+    margin:0 auto;
+  }
+}
+@media screen and (max-width:385px){
+
+    ul{
+    text-align:center;
+    padding:5px;
+    font-size:xx-small;
+    margin :0 auto;
+
+} 
+  .footer .link{
+    font-size:xx-small;
+    padding:5px;
+    margin:0 auto;
+  }
+}
