@@ -128,3 +128,15 @@ body{
     margin:0 auto;
   }
 }
+@media screen and (max-width:392px){
+    .ow .link-secondary{
+        font-size:x-small;
+    }
+}
+@media screen and (max-width:392px){
+    .ow .link-secondary{
+        font-size:xx-small;
+        display:inline-block;
+        margin:2px auto;
+    }
+}
