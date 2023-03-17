@@ -22,6 +22,7 @@ body{
     background-color: var(--color);
     border-radius: 0.5rem;
     color:aliceblue;
+    display: inline-block;
 
 }
 .link-secondary{
@@ -81,14 +82,14 @@ body{
 .ow{
     background-color: #d1d5db;
 }
-.ow img{
+.ow-blog img{
     width:100%;
 }
-.ow a{
+.ow-blog a{
     display: inline-block;
     margin: 5px auto;
 }
-.ow li{
+.ow-blog li{
     text-decoration: none;
     list-style-type: none;
 }
