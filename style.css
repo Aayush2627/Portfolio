@@ -81,6 +81,20 @@ body{
 .ow{
     background-color: #d1d5db;
 }
+.ow img{
+    width:100%;
+}
+.ow a{
+    display: inline-block;
+    margin: 5px auto;
+}
+.ow li{
+    text-decoration: none;
+    list-style-type: none;
+}
+.blog li{
+    list-style-type: disc;
+}
 .footer{
     background-color: var(--color);
     padding:2rem;
@@ -99,6 +113,7 @@ body{
     font-size: larger;
     font-weight: bolder;
 }
+
 @media screen and (max-width:600px){
 
     ul{
@@ -128,6 +143,7 @@ body{
     margin:0 auto;
   }
 }
+
 @media screen and (max-width:392px){
     .ow .link-secondary{
         font-size:x-small;
