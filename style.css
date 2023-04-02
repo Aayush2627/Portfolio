@@ -100,12 +100,21 @@ body{
     list-style-type: disc;
 }
 .footer{
+    bottom:0;
+    left:0;
+    right:0;
+
     background-color: var(--color);
     padding:2rem;
     text-align: center;
     color: aliceblue;
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
+
+
+}
+ul{
+    padding:0;
 }
 .footer .link{
     color: aliceblue;
@@ -123,10 +132,6 @@ ul.socials.non-bullet{
 
 @media screen and (max-width:600px){
 
-    ul{
-    text-align:center;
-
-} 
   .footer .link{
     font-size:small;
     padding:5px;
@@ -134,8 +139,8 @@ ul.socials.non-bullet{
 }
 @media screen and (max-width :420px ){
     ul{
-        text-align:center;
-        font-size:xx-small;
+    
+        font-size:small;
      
     
     } 
@@ -143,21 +148,18 @@ ul.socials.non-bullet{
 @media screen and (max-width:395px){
 
     ul{
-    text-align:center;
-    font-size:xx-small;
+
+    font-size:small;
  
 
 } 
-.footer-heading{
-    font-size: x-small;
-}
   .footer .link{
-    font-size:x-small;
+    font-size:small;
     padding:3px;
     margin:0 auto;
   }
   .link{
-    padding:.5rem 0.5rem;
+    padding:.5rem 1rem;
     text-decoration: none;
 
 }
@@ -168,10 +170,13 @@ ul.socials.non-bullet{
         display:inline-block;
         margin:2px auto;
     }
+    .footer .link{
+        font-size:small;
+    }
 }
 @media screen and (max-width:320px ){
     .footer .link{
-        font-size:xx-small;
+        font-size:small;
         padding:2px;
         margin:0 auto;
 }
